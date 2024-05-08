@@ -1,8 +1,6 @@
-import pdb
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
-from .models import Event, EventsRequest, EventsResponse
 from .serializer import EventsResponseSerializer
 import requests
 import datetime

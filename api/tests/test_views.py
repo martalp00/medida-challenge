@@ -1,14 +1,7 @@
-import pdb
-from django.test import Client
-from django.urls import reverse
-import datetime
 from unittest.mock import MagicMock
-from unittest.mock import patch
 import pytest
 import requests
 from api.views import eventEndpoint
-from rest_framework.response import Response
-from rest_framework import status
 from rest_framework.test import APIRequestFactory
 # Create your tests here.
 
